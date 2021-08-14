@@ -1,0 +1,65 @@
+body{
+    background-image: url(roman-skrypnyk-IWm9a9AMnf8-unsplash.jpg);
+}
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Pacifico|Oxygen);
+
+
+
+p {
+  margin: 0;
+  font-family: Pacifico;
+  position: relative;
+  left: 5%;
+}
+
+.calculator {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 700px;
+  padding: 1em 0;
+  display: block-inline;
+  width: 550px;
+  background-color:rgb(13, 4, 51);
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px 3px #111;
+  font-family: 'Oxygen';
+}
+
+.calc-row {
+  text-align: center;
+
+}
+
+.calc-row div.screen {
+  font-family: Droid Sans Mono;
+  display: table;
+  width: 90%;
+  background-color: #aaa;
+  text-align: right;
+  font-size: 2em;
+  height: 2.7em;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  padding-right: 0.5em;
+  border: 1px solid #888;
+  color: #333;
+}
+
+.calc-row div {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  border: 1px solid #555;
+  background-color: rgb(157, 162, 175);
+  padding: 20px 10px;
+  margin: 7px 5px;
+  border-radius: 12px;
+ 
+  width: 70px;
+}
+
+.calc-row div.zero {
+  width: 115px;
+  margin-right: 6px;
+}
+
